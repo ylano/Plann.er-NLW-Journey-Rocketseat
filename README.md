@@ -33,7 +33,6 @@ O projeto é construído com React, Tailwind CSS e o framework Vite, oferecendo 
     cd /Plann.er-NLW-Journey-Rocketseat
     npm install
 
-    ```bash
     cd /nlw-Journey-nodejs
     npm install
     ```
