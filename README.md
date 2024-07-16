@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# Plann.er - NLW Journey Rocketseat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Plann.er é um aplicativo de planejamento de viagens desenvolvido durante a NLW Journey da Rocketseat. 
+O projeto é construído com React, Tailwind CSS e o framework Vite, oferecendo uma interface intuitiva para organizar e planejar suas viagens de forma eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React:** Biblioteca JavaScript para construir interfaces de usuário.
+- **Tailwind CSS:** Framework de CSS para estilização rápida e eficiente.
+- **Vite:** Ferramenta de build rápida para projetos web.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Criação de itinerários de viagem
+- Adição e gerenciamento de destinos
+- Organização de atividades por dia
+- Interface amigável e responsiva
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instalação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone este repositório em uma pasta:
+    ```bash
+    git clone https://github.com/ylano/Plann.er-NLW-Journey-Rocketseat
+    ```
+2. Na mesma pasta clone o backend forrnecido pela Rocketseat:
+    ```bash
+    git clone https://github.com/rocketseat-education/nlw-journey-nodejs
+    ```
+3. Instale as dependências:
+    ```bash
+    cd /Plann.er-NLW-Journey-Rocketseat
+    npm install
+
+    ```bash
+    cd /nlw-Journey-nodejs
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento e o servidor backend:
+    ```bash
+    npm run dev
+    ```
+
+## Contribuição
+
+Se você deseja contribuir com o projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature/bugfix (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Envie para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- **Nome:** Seu Nome
+- **Email:** seu-email@example.com
+- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/seu-usuario)
+
+---
+
+Desenvolvido com ❤️ durante a NLW Journey da Rocketseat.
