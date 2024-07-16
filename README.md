@@ -16,7 +16,6 @@ O projeto é construído com React, Tailwind CSS e o framework Vite, oferecendo 
 - Criação de itinerários de viagem
 - Adição e gerenciamento de destinos
 - Organização de atividades por dia
-- Interface amigável e responsiva
 
 ## Instalação
 
