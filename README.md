@@ -33,36 +33,19 @@ O projeto é construído com React, Tailwind CSS e o framework Vite, oferecendo 
     cd /Plann.er-NLW-Journey-Rocketseat
     npm install
 
-    cd /nlw-Journey-nodejs
+    cd /nlw-journey-nodejs
     npm install
     ```
-4. Inicie o servidor de desenvolvimento e o servidor backend:
+4. Inicie o servidor frontend e o servidor backend:
     ```bash
+    cd /Plann.er-NLW-Journey-Rocketseat
+    npm run dev
+
+    cd /nlw-journey-nodejs
     npm run dev
     ```
-
-## Contribuição
-
-Se você deseja contribuir com o projeto, siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature/bugfix (`git checkout -b feature/nova-feature`).
-3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Envie para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
-
-- **Nome:** Seu Nome
-- **Email:** seu-email@example.com
-- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/seu-usuario)
-
----
-
-Desenvolvido com ❤️ durante a NLW Journey da Rocketseat.
+https://www.linkedin.com/in/ylano-dev/
